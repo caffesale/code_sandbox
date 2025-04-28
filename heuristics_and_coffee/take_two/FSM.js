@@ -20,6 +20,14 @@ class FSMCoffeeMaker {
             brewComplete: false,
             pourButtonPressed: false,
         };
+
+        // this.eventTypes = {
+        //     BREW_BUTTON_PRESSED: "BREW_BUTTON_PRESSED",
+        //     WATER_HOT: "WATER_HOT",
+        //     POT_REMOVED: "POT_REMOVED",
+        //     POUR_BUTTON_PRESSED: "POUR_BUTTON_PRESSED",
+        //     POT_REMOVED: "POT_REMOVED",
+        // }
     }
 
     transition(event) {
